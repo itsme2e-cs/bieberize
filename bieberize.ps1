@@ -80,8 +80,8 @@ public class Params
 }
 
 # Download CLASSIC Bieber
-invoke-webrequest "https://cdn.britannica.com/70/145070-050-B810D3E1/Justin-Bieber.jpg" -OutFile "$HOME\Downloads\bieber.jpg"
+invoke-webrequest "https://cdn.britannica.com/70/145070-050-B810D3E1/Justin-Bieber.jpg" -OutFile "c:\bieber.jpg"
 
 # Invoke Set-Wallpaper Function
-Set-WallPaper -Image "$HOME\Downloads\bieber.jpg" -Style Fit 
+Set-WallPaper -Image "c:\bieber.jpg" -Style Fit 
 
